@@ -2,8 +2,8 @@ AM_CPPFLAGS = $(CXX11_FLAGS) -I$(srcdir)/../src
 AM_CXXFLAGS = $(PICKY_CXXFLAGS)
 LDADD = ../src/libsourdough.a -lpthread
 
-bin_PROGRAMS = tcpclient tcpserver
+bin_PROGRAMS = udpclient udpserver
 
-tcpclient_SOURCES = tcpclient.cc
+udpclient_SOURCES = udpclient.cc
 
-tcpserver_SOURCES = tcpserver.cc
+udpserver_SOURCES = udpserver.cc

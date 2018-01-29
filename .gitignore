@@ -15,8 +15,8 @@ Makefile.in
 /missing
 .deps
 /stamp-h1
-/examples/tcpclient
-/examples/tcpserver
+/examples/udpclient
+/examples/udpserver
 /compile
 /datagrump/sender
 /datagrump/receiver
